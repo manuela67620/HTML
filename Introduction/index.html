@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- 1. Title of the page -->
+    <title>Basic Registration Page</title>
+
+    <!-- 2. Meta tag for display (viewport settings for responsive design) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- 3. Meta tag for character set -->
+    <meta charset="UTF-8">
+
+    <!-- Optional styling for a simple layout -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+        }
+        header {
+            background-color: #f4f4f4;
+            padding: 10px;
+            text-align: center;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        img {
+            display: block;
+            margin: 20px auto;
+            width: 200px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 4. Header -->
+    <header>
+        <h1>Welcome to Our Registration Page</h1>
+    </header>
+
+    <!-- 5. Heading -->
+    <h2>Sign Up Below</h2>
+
+    <!-- 6. Paragraph -->
+    <p>Fill out the form to register and join our platform. Your information will remain confidential and will only be used for verification purposes.</p>
+
+    <!-- 7. Basic registration form -->
+    <form action="/submit" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone" required><br><br>
+
+        <input type="submit" value="Register">
+    </form>
+
+    <!-- 8. Table displaying common user information -->
+    <h3>User Information</h3>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone Number</th>
+        </tr>
+        <tr>
+            <td>Emmanuel Matulai</td>
+            <td>emmanuelmatulai@gmail.com</td>
+            <td>0728809374</td>
+        </tr>
+        <tr>
+            <td>Jane Wangari</td>
+            <td>jane Wangari @gmail.com</td>
+            <td>07123456</td>
+        </tr>
+    </table>
+
+    <!-- 9. An image -->
+    <img src="https://www.pexels.com/photo/black-samsung-galaxys-3-13452549/" alt="Sample Image">
+
+</body>
+</html>
+
